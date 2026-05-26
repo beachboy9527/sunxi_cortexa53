@@ -15,6 +15,6 @@
 sed -i '1i src-git openclash https://github.com/vernesong/openclash' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
