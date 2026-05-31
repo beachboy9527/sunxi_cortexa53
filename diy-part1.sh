@@ -12,9 +12,11 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-sed -i '1i src-git openclash https://github.com/vernesong/openclash' feeds.conf.default
+sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '2i src-git Openclash https://github.com/vernesong/OpenClash' feeds.conf.default
+sed -i '2i src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git' feeds.conf.default
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
+#echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
